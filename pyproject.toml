@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ng-annotations"
+version = "0.1.0"
+description = "Neuroglancer annotations to spreadsheets, and spreadsheets back to a Neuroglancer link."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Aubrey Weigel" }]
+keywords = ["neuroglancer", "annotations", "electron microscopy", "csv"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Image Processing",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://avweigel.github.io/ng-annotations/"
+Source = "https://github.com/avweigel/ng-annotations"
+
+[project.scripts]
+ng-annotations = "ng_annotations.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
