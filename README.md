@@ -1,5 +1,7 @@
 # ng-annotations
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24367402.svg)](https://doi.org/10.5281/zenodo.24367402)
+
 Turn the annotations in a [Neuroglancer](https://github.com/google/neuroglancer) link into
 spreadsheets, and turn those spreadsheets back into a link.
 
@@ -62,6 +64,14 @@ tables["line"]["rows"][0]["length (nm)"]
   in Neuroglancer and copy the JSON with the `{ }` button instead.
 - The browser page (`docs/index.html`) and the Python package write identical files. If you
   change one, change the other.
+
+## How to cite
+
+Aubrey Weigel. *ng-annotations: Neuroglancer annotations to spreadsheets and back.* Zenodo.
+https://doi.org/10.5281/zenodo.24367402
+
+This DOI always points to the latest version. To cite a specific version, use the version DOI
+on its Zenodo page (0.1.0: https://doi.org/10.5281/zenodo.24367403).
 
 ## Credits
 
